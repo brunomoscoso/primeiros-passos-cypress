@@ -10,6 +10,8 @@ class MenuPage {
     accessMyInfo(){
         cy.get(this.selectorList().myInfoButton).click();
     }
+
+    
 }
 
 export default MenuPage;
